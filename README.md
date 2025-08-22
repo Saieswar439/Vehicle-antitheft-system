@@ -1,4 +1,6 @@
 # Vehicle-antitheft-system
+A smart anti-theft system using **Arduino Uno, Fingerprint Sensor (R307S), GSM (SIM808), and GPS tracking**
+# OBJECTIVE
 In this rapidly advancing technological era, the demand for efficient vehicle security systems is at an all-time high. This project presents a robust vehicle anti-theft system integrating fingerprint recognition and SMS-based owner authentication, and vehicle live tracking. The system employs a fingerprint scanner to verify the identity of the individual attempting to access the vehicle. Upon detecting an unauthorized fingerprint, an SMS is sent to the vehicle 
 owner's registered mobile number, requesting their approval to start the vehicle. The owner can respond with an "ACCEPT" or "DENY" message, enabling or disabling the ignition system, respectively. This approach not only ensures robust biometric authentication but also allows the owner to remotely control vehicle access, adding an extra layer of security. The system is implemented using a Aurdino UNO, GSM module, fingerprint scanner, and a relay module for ignition control. This advanced solution provides a reliable, cost-effective, and user-friendly approach to vehicle theft detection. 
 
