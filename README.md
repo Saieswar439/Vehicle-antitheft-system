@@ -16,9 +16,9 @@ The system uses an R307S fingerprint sensor to verify the user’s identity, all
 - An Arduino Uno microcontroller oversees the system, managing the fingerprint sensor, SIM808 module, a relay for ignition control, a buzzer for alerts, and a 16x2 LCD for status display. 
 - The system is powered by a 12V DC adapter, with an electronic bike lock managing power distribution to components. 
 The system operates in two primary modes: 
-# Authorized Access Mode: 
+### Authorized Access Mode: 
   If the fingerprint matches a stored template (IDs 1–5), the ignition is enabled, and the vehicle starts. 
-# Unauthorized Access Mode: 
+### Unauthorized Access Mode: 
   If the fingerprint is unrecognized, an SMS alert is sent to the owner, the buzzer sounds, and the system waits for the owner’s response to either grant or deny access. 
 - Additional features, such as a 400kV voltage booster for a shock mechanism (simulated for safety) and live tracking via hardcoded GPS coordinates, enhance security and recovery capabilities. The modular design ensures scalability and ease of troubleshooting. 
   
