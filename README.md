@@ -8,4 +8,8 @@ Arduino-based vehicle anti-theft detection with live tracking  A smart anti-thef
 - Location tracking via GPS (Google Maps link)
 - Low-cost and user-friendly design
 
+## 📂 Project Files
+- `code/` → 
+- `docs/Project_Report.pdf` → 
+- `images/` 
   
