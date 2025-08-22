@@ -1,2 +1,11 @@
 # Vehicle-antitheft-system
-Arduino-based vehicle anti-theft detection with live tracking
+Arduino-based vehicle anti-theft detection with live tracking  A smart anti-theft system using **Arduino Uno, Fingerprint Sensor (R307S), GSM (SIM808), and GPS tracking**.
+
+## 🔧 Features
+- Fingerprint-based ignition control
+- SMS alerts on unauthorized access
+- Remote start/stop via SMS (ACCEPT/DENY)
+- Location tracking via GPS (Google Maps link)
+- Low-cost and user-friendly design
+
+  
