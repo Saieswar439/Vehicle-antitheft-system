@@ -7,6 +7,18 @@ Arduino-based vehicle anti-theft detection with live tracking  A smart anti-thef
 - Remote start/stop via SMS (ACCEPT/DENY)
 - Location tracking via GPS (Google Maps link)
 - Low-cost and user-friendly design
+
+ ## SYSTEM DESIGN
+- The Fingerprint-Based Vehicle Anti-Theft System integrates biometric authentication with remote communication to secure a two-wheeler. 
+The system uses an R307S fingerprint sensor to verify the user’s identity, allowing only authorized individuals (with pre-registered fingerprints) to start the vehicle. 
+- If an unauthorized fingerprint is detected, the system sends an SMS alert to the owner’s registered mobile number via the SIM808 module, which also provides GPS functionality for live tracking. 
+- The owner can respond with predefined commands (e.g., ACCEPT, DENY) to control the vehicle’s ignition remotely. 
+- An Arduino Uno microcontroller oversees the system, managing the fingerprint sensor, SIM808 module, a relay for ignition control, a buzzer for alerts, and a 16x2 LCD for status display. 
+- The system is powered by a 12V DC adapter, with an electronic bike lock managing power distribution to components. 
+The system operates in two primary modes: 
+# Authorized Access Mode: If the fingerprint matches a stored template (IDs 1–5), the ignition is enabled, and the vehicle starts. 
+# Unauthorized Access Mode: If the fingerprint is unrecognized, an SMS alert is sent to the owner, the buzzer sounds, and the system waits for the owner’s response to either grant or deny access. 
+- Additional features, such as a 400kV voltage booster for a shock mechanism (simulated for safety) and live tracking via hardcoded GPS coordinates, enhance security and recovery capabilities. The modular design ensures scalability and ease of troubleshooting. 
   
 ## CRICUIT DIGRAM
   <a href="https://github.com/Saieswar439/Vehicle-antitheft-system/blob/main/Screenshot%202025-08-22%20092547.png" a> cricuit image
